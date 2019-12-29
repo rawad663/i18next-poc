@@ -28,8 +28,6 @@ const TextBlock = () => {
                 <p>{t('sentences:home.the_initiative_find_out_more_6')}</p>
                 <br /><br/>
                 <p>{t('sentences:home.the_initiative_find_out_more_7')}</p>
-
-                <p>{t('sentences:home.the_initiative_find_out_more_8')}</p>
             </div>}
         </>
     );
