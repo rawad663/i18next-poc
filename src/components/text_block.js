@@ -7,7 +7,9 @@ const TextBlock = () => {
 
     return (
         <>
-            <p>{t('sentences:home.the_initiative_intro')}</p>
+            <p>
+                <b>{t('nouns.the_initiative')}</b> {t('sentences:home.the_initiative_intro')}
+            </p>
             <button onClick={() => setMoreOpened(!moreOpened)}>
                 {moreOpened 
                     ? t('sentences:home.hide')
@@ -15,19 +17,33 @@ const TextBlock = () => {
             </button>
 
             {moreOpened && <div>
-                <p>{t('sentences:home.the_initiative_find_out_more_1')}</p>
+                <p>
+                    <b>{t('nouns.the_initiative')}</b> {t('sentences:home.the_initiative_find_out_more_1')}
+                </p>
                 <br /><br/>
-                <p>{t('sentences:home.the_initiative_find_out_more_2')}</p>
+                <p>
+                    <b>{t('nouns.the_initiative')}</b> {t('sentences:home.the_initiative_find_out_more_2')}
+                </p>
                 <br /><br/>
-                <p>{t('sentences:home.the_initiative_find_out_more_3')}</p>
+                <p>
+                    <b>{t('nouns.the_initiative')}</b> {t('sentences:home.the_initiative_find_out_more_3')}
+                </p>
                 <br /><br/>
-                <p>{t('sentences:home.the_initiative_find_out_more_4')}</p>
+                <p>
+                    <b>{t('nouns.the_initiative')}</b> {t('sentences:home.the_initiative_find_out_more_4')}
+                </p>
                 <br /><br/>
-                <p>{t('sentences:home.the_initiative_find_out_more_5')}</p>
+                <p>
+                    <b>{t('nouns.the_initiative')}</b> {t('sentences:home.the_initiative_find_out_more_5')}
+                </p>
                 <br /><br/>
-                <p>{t('sentences:home.the_initiative_find_out_more_6')}</p>
+                <p>
+                    <b>{t('nouns.the_initiative')}</b> {t('sentences:home.the_initiative_find_out_more_6')}
+                </p>
                 <br /><br/>
-                <p>{t('sentences:home.the_initiative_find_out_more_7')}</p>
+                <p>
+                    <b>{t('nouns.the_initiative')}</b> {t('sentences:home.the_initiative_find_out_more_7')}
+                </p>
             </div>}
         </>
     );
